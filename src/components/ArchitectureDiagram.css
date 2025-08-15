@@ -1,0 +1,99 @@
+.architecture-diagram {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.diagram-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.component {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.component-header h3 {
+  margin: 0;
+}
+
+.flow-diagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-down {
+  position: relative;
+}
+
+.arrowhead {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #9ca3af;
+}
+
+.arrow-horizontal {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.arrow-line {
+  position: relative;
+  width: 75%;
+  height: 2px;
+  background-color: #9ca3af;
+}
+
+.arrowhead-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #9ca3af;
+}
+
+.arrowhead-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 4px solid #9ca3af;
+}
+
+.legend {
+  background-color: #f9fafb;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.legend-item:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .component {
+    max-width: 100%;
+  }
+  
+  .arrow-line {
+    width: 90%;
+  }
+}

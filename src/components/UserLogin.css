@@ -1,0 +1,96 @@
+.user-login {
+  padding: 2rem 0;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+}
+
+.user-login .container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-login h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.user-login form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.user-login .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.user-login label {
+  font-weight: bold;
+  color: #555;
+}
+
+.user-login input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.user-login input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.user-login button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.user-login .error-message {
+  color: #dc3545;
+  background: #f8d7da;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #f5c6cb;
+  text-align: center;
+}
+
+.user-login .form-links {
+  text-align: right;
+  margin-top: 0.5rem;
+}
+
+.user-login .forgot-password {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.user-login .forgot-password:hover {
+  text-decoration: underline;
+}
+
+.user-login .registration-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.user-login .registration-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.user-login .registration-link a:hover {
+  text-decoration: underline;
+}

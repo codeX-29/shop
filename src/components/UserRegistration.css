@@ -1,0 +1,91 @@
+.user-registration {
+  padding: 2rem 0;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+}
+
+.user-registration .container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-registration h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.user-registration form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.user-registration .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.user-registration label {
+  font-weight: bold;
+  color: #555;
+}
+
+.user-registration input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.user-registration input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.user-registration button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.user-registration .error-message {
+  color: #dc3545;
+  background: #f8d7da;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #f5c6cb;
+  text-align: center;
+}
+
+.user-registration .success-message {
+  color: #155724;
+  background: #d4edda;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #c3e6cb;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.user-registration .login-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.user-registration .login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.user-registration .login-link a:hover {
+  text-decoration: underline;
+}
