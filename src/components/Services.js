@@ -19,7 +19,7 @@ const Services = () => {
       id: 3,
       title: "Wiring Services",
       description: "Complete wiring solutions including rewiring old systems, new installations, and troubleshooting electrical issues.",
-      icon: " wireType"
+      icon: "🔌"
     },
     {
       id: 4,
@@ -96,7 +96,9 @@ const Services = () => {
         <div className="service-cta">
           <h2>Need Professional Electrical Services?</h2>
           <p>Contact us today for a free consultation and quote</p>
-          <button className="btn btn-primary">Get in Touch</button>
+          <button className="btn btn-primary" onClick={() => window.location.href="/contact"}>
+            Get in Touch
+          </button>
         </div>
       </div>
     </div>
