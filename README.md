@@ -1,10 +1,10 @@
-# Raghav Electric - Modern Electrical Store Website
+# Engenix Electric - Modern Electrical Store Website
 
 A responsive, single-page application (SPA) built with React.js for Raghav Electric, a local electrical goods provider.
 
 ## Project Overview
 
-Raghav Electric is a local electrical goods provider offering a variety of electrical appliances, components, and professional services like installation and maintenance. This project aims to develop a clean, responsive, and interactive website using React.js that reflects the brand's values and services.
+Engenix Electric is a local electrical goods provider offering a variety of electrical appliances, components, and professional services like installation and maintenance. This project aims to develop a clean, responsive, and interactive website using React.js that reflects the brand's values and services.
 
 ## Features
 
@@ -55,7 +55,7 @@ In the project directory, you can run:
 
 ## Mentor & Supervisor
 
-Sunilkumar D
+RUBAN RAJ S
 
 ## Intern Development Team
 
